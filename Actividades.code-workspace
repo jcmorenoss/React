@@ -1,0 +1,67 @@
+{
+	"folders": [
+		{
+			"path": "../Actividades"
+		},
+		{
+			"path": "../alejandrob81.github.io-main"
+		},
+		{
+			"path": "../Clase01-HTML1"
+		},
+		{
+			"path": "../Clase02-HTML2"
+		},
+		{
+			"path": "../Clase03-HTML3"
+		},
+		{
+			"path": "../Clase04-HTML4"
+		},
+		{
+			"path": "../Clase05-CSS1"
+		},
+		{
+			"path": "../Clase06-CSS2"
+		},
+		{
+			"path": "../Clase07-CSS3"
+		},
+		{
+			"path": "../Clase08-CSS4"
+		},
+		{
+			"path": "../Clase09-CSS5"
+		},
+		{
+			"path": "../Clase10-CSS6"
+		},
+		{
+			"path": "../Clase13-JS"
+		},
+		{
+			"path": "../Codo-a-Codo-main"
+		},
+		{
+			"path": "../CRUD"
+		},
+		{
+			"path": "../imagenes"
+		},
+		{
+			"path": "../Nueva carpeta"
+		},
+		{
+			"path": "../Proyecto"
+		},
+		{
+			"path": "../Trabajo 1 en equipo Codo a Codo"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "React"
+	}
+}
