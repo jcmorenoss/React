@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="style.css">
+    <title>Fetch con TMDB</title>
+</head>
+
+<body>
+    <main class="main">
+
+        <h1 class="title">MOVIES TIME</h1>
+
+
+        <div class="contenedor" id="contenedor"></div>
+        <video id="video" autoplay muted loop class="video">
+            <source src="/img/fondo.mp4" type="video/mp4">
+        </video>
+    </main>
+    <div class="paginacion">
+        <button id="btnAnterior">Anterior</button>
+        <p id="numeroPagina" class="numeroPagina"></p>
+        <button id="btnSiguiente">Siguiente</button>
+
+
+    </div>
+    <button id="mute" class="buttonMute" type="button" data-state="mute">
+        <span id="off" class="material-symbols-outlined">
+            volume_off
+        </span>
+        <span id="on" class="material-symbols-outlined hide">
+            volume_up
+        </span>
+    </button>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="axios.js"></script>
+</body>
+
+</html>
